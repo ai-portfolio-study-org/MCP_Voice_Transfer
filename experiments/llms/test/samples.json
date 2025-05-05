@@ -1,122 +1,186 @@
-samples = [
+[
   {
     "text": "철수한테 오천 원 보내줘",
     "intent": "transfer",
-    "slots": { "recipient": "철수", "amount": 5000 },
+    "slots": {
+      "recipient": "철수",
+      "amount": 5000
+    },
     "response": "철수님께 5,000원을 송금하시겠어요?"
   },
   {
     "text": "엄마한테 3만원만",
     "intent": "transfer",
-    "slots": { "recipient": "엄마", "amount": 30000 },
+    "slots": {
+      "recipient": "엄마",
+      "amount": 30000
+    },
     "response": "엄마님께 30,000원을 송금하시겠어요?"
   },
   {
     "text": "만원만 보내줘",
     "intent": "transfer",
-    "slots": { "recipient": None, "amount": 10000 },
+    "slots": {
+      "recipient": null,
+      "amount": 10000
+    },
     "response": "누구에게 10,000원을 송금할까요?"
   },
   {
     "text": "엄마한테 보내줘",
     "intent": "transfer",
-    "slots": { "recipient": "엄마", "amount": None },
+    "slots": {
+      "recipient": "엄마",
+      "amount": null
+    },
     "response": "엄마님께 얼마를 송금할까요?"
   },
   {
     "text": "나 송금하고 싶어",
     "intent": "transfer",
-    "slots": { "recipient": None, "amount": None },
+    "slots": {
+      "recipient": null,
+      "amount": null
+    },
     "response": "송금하실 대상과 금액을 알려주세요."
   },
   {
     "text": "가스비 내야 하는데 어떻게 해야 해?",
     "intent": "inquiry",
-    "slots": { "recipient": None, "amount": None, "topic": "가스비" },
+    "slots": {
+      "recipient": null,
+      "amount": null,
+      "topic": "가스비"
+    },
     "response": "가스비 납부 방법을 알려드릴게요."
   },
   {
     "text": "내 계좌에 얼마 남았어?",
     "intent": "inquiry",
-    "slots": { "recipient": None, "amount": None, "topic": "잔액조회" },
+    "slots": {
+      "recipient": null,
+      "amount": null,
+      "topic": "잔액조회"
+    },
     "response": "계좌 잔액을 확인 중입니다."
   },
   {
     "text": "그 사람한테 또 보내줘",
     "intent": "transfer",
-    "slots": { "recipient": "이전대화", "amount": "이전대화" },
+    "slots": {
+      "recipient": "이전대화",
+      "amount": "이전대화"
+    },
     "response": "이전에 송금한 대상과 금액으로 다시 송금할까요?"
   },
   {
     "text": "아까랑 똑같이 보내줘",
     "intent": "transfer",
-    "slots": { "recipient": "이전대화", "amount": "이전대화" },
+    "slots": {
+      "recipient": "이전대화",
+      "amount": "이전대화"
+    },
     "response": "이전과 동일한 내용으로 송금 진행할까요?"
   },
   {
     "text": "송금할래",
     "intent": "transfer",
-    "slots": { "recipient": None, "amount": None },
+    "slots": {
+      "recipient": null,
+      "amount": null
+    },
     "response": "송금하실 대상과 금액을 말씀해주세요."
   },
   {
     "text": "이체 수수료 얼마야?",
     "intent": "inquiry",
-    "slots": { "recipient": None, "amount": None, "topic": "이체 수수료" },
+    "slots": {
+      "recipient": null,
+      "amount": null,
+      "topic": "이체 수수료"
+    },
     "response": "이체 수수료 정보를 알려드릴게요."
   },
   {
     "text": "오늘 아빠랑 점심 먹었어",
     "intent": "other",
-    "slots": { "recipient": None, "amount": None },
+    "slots": {
+      "recipient": null,
+      "amount": null
+    },
     "response": "말씀 감사합니다!"
   },
   {
     "text": "아빠한테 이만원 보내줘",
     "intent": "transfer",
-    "slots": { "recipient": "아빠", "amount": 20000 },
+    "slots": {
+      "recipient": "아빠",
+      "amount": 20000
+    },
     "response": "아빠님께 20,000원을 송금하시겠어요?"
   },
   {
     "text": "여보한테 십만 원 이체해줘",
     "intent": "transfer",
-    "slots": { "recipient": "여보", "amount": 100000 },
+    "slots": {
+      "recipient": "여보",
+      "amount": 100000
+    },
     "response": "여보님께 100,000원을 송금하시겠어요?"
   },
   {
     "text": "보내지 마",
     "intent": "cancel",
-    "slots": { "recipient": None, "amount": None },
+    "slots": {
+      "recipient": null,
+      "amount": null
+    },
     "response": "요청하신 송금을 취소했습니다."
   },
   {
     "text": "그냥 넘어가줘",
     "intent": "cancel",
-    "slots": { "recipient": None, "amount": None },
+    "slots": {
+      "recipient": null,
+      "amount": null
+    },
     "response": "진행 중이던 요청을 취소했어요."
   },
   {
     "text": "엄마 송금해줘",
     "intent": "transfer",
-    "slots": { "recipient": "엄마", "amount": None },
+    "slots": {
+      "recipient": "엄마",
+      "amount": null
+    },
     "response": "엄마님께 얼마를 송금할까요?"
   },
   {
     "text": "아, 삼만원 보내는 거였지",
     "intent": "confirm",
-    "slots": { "recipient": None, "amount": 30000 },
+    "slots": {
+      "recipient": null,
+      "amount": 30000
+    },
     "response": "30,000원 송금 요청으로 확인했습니다."
   },
   {
     "text": "예금해줘",
     "intent": "other",
-    "slots": { "recipient": None, "amount": None, "action": "예금" },
+    "slots": {
+      "recipient": null,
+      "amount": null,
+      "action": "예금"
+    },
     "response": "예금을 진행할까요? 금액을 알려주세요."
   },
   {
     "text": "누구한테 보낼까요?",
     "intent": "system_response",
-    "slots": { "recipient": None, "amount": None },
+    "slots": {
+      "recipient": null,
+      "amount": null
+    },
     "response": "누구에게 송금할까요?"
   }
 ]

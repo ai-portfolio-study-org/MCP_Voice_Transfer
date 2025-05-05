@@ -1,0 +1,82 @@
+[
+  {
+    "text": "철수한테 오천 원 보내줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n철수한테 오천 원 보내줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 10000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 10,000원을 전송해드릴게요.\"\n}"
+  },
+  {
+    "text": "엄마한테 3만원만",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n엄마한테 3만원만\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}"
+  },
+  {
+    "text": "만원만 보내줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n만원만 보내줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 1,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 1만원을 송금해드릴까요?\"\n}"
+  },
+  {
+    "text": "엄마한테 보내줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n엄마한테 보내줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}"
+  },
+  {
+    "text": "나 송금하고 싶어",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n나 송금하고 싶어\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}"
+  },
+  {
+    "text": "가스비 내야 하는데 어떻게 해야 해?",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n가스비 내야 하는데 어떻게 해야 해?\nassistant\n{\n  \"intent\": \"other\",\n  \"amount\": null,\n  \"recipient\": \"사람 이름\",\n  \"response\": \"가스비를 내야 합니다.\"\n}"
+  },
+  {
+    "text": "내 계좌에 얼마 남았어?",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n내 계좌에 얼마 남았어?\nassistant\n{\n  \"intent\": \"inquiry\",\n  \"amount\": null,\n  \"recipient\": \"나\",\n  \"response\": \"계좌가 없습니다.\"\n}"
+  },
+  {
+    "text": "그 사람한테 또 보내줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n그 사람한테 또 보내줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 5000,\n  \"recipient\": \"제가 가진 돈\",\n  \"response\": \"저도 돈이 필요합니다. 50,000원을 전송해 주세요.\"\n}"
+  },
+  {
+    "text": "아까랑 똑같이 보내줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n아까랑 똑같이 보내줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}"
+  },
+  {
+    "text": "송금할래",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n송금할래\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴게요.\"\n}"
+  },
+  {
+    "text": "이체 수수료 얼마야?",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n이체 수수료 얼마야?\nassistant\n{\n  \"intent\": \"other\",\n  \"amount\": null,\n  \"recipient\": \"저희\",\n  \"response\": \"저희는 이체 수수료가 없습니다.\"\n}"
+  },
+  {
+    "text": "오늘 아빠랑 점심 먹었어",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n오늘 아빠랑 점심 먹었어\nassistant\n{\n  \"intent\": \"confirm\",\n  \"amount\": null,\n  \"recipient\": \"아빠\",\n  \"response\": \"네, 오늘 아빠와 점심 먹으셨어요!\"\n}"
+  },
+  {
+    "text": "아빠한테 이만원 보내줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n아빠한테 이만원 보내줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"아빠\",\n  \"response\": \"아빠님께 30,000원을 전송해드릴게요.\"\n}"
+  },
+  {
+    "text": "여보한테 십만 원 이체해줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n여보한테 십만 원 이체해줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 10000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 10만원을 전송해드릴게요.\"\n}"
+  },
+  {
+    "text": "보내지 마",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n보내지 마\nassistant\n{\"intent\": \"other\", \"amount\": null, \"recipient\": null, \"response\": \"죄송합니다, 저는 이메일을 보내지 않습니다.\"}"
+  },
+  {
+    "text": "그냥 넘어가줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n그냥 넘어가줘\nassistant\n{\n  \"intent\": \"other\",\n  \"amount\": null,\n  \"recipient\": null,\n  \"response\": \"\"\n}"
+  },
+  {
+    "text": "엄마 송금해줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n엄마 송금해줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}"
+  },
+  {
+    "text": "아, 삼만원 보내는 거였지",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n아, 삼만원 보내는 거였지\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴게요.\"\n}"
+  },
+  {
+    "text": "예금해줘",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n예금해줘\nassistant\n{\n  \"intent\": \"transfer\",\n  \"amount\": 50000,\n  \"recipient\": \"부모님\",\n  \"response\": \"부모님께 50,000원을 전송해드릴게요.\"\n}"
+  },
+  {
+    "text": "누구한테 보낼까요?",
+    "raw_output": "system\n\n당신은 사용자의 금융 발화를 분석하는 AI 송금 도우미입니다. 다음 지침에 따라 작동하세요:\n\n1. 사용자의 문장에서 다음 항목을 추출하세요:\n    - intent: 다음 중 하나 (transfer, confirm, cancel, inquiry, other, system_response)\n    - amount: 숫자만 추출 (없으면 null)\n    - recipient: 사람 이름 등 (없으면 null)\n\n2. 사용자의 발화에 어울리는 자연스러운 안내 응답(response)을 생성하세요.\n\n3. 다음 JSON 형식으로 하나의 객체로 응답하세요. 다른 텍스트는 출력하지 마세요.\n\n예시:\n{\n  \"intent\": \"transfer\",\n  \"amount\": 30000,\n  \"recipient\": \"엄마\",\n  \"response\": \"엄마님께 30,000원을 송금해드릴까요?\"\n}\n\nuser\n누구한테 보낼까요?\nassistant\n{\n  \"intent\": \"other\",\n  \"amount\": null,\n  \"recipient\": \"알려주실 수 있는 누군가\",\n  \"response\": \"알려주실 수 있는 누군가에게 보낼까요?\"\n}"
+  }
+]
